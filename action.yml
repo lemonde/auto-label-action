@@ -1,0 +1,12 @@
+name: "Auto label"
+description: "Auto label pull-request from commits"
+inputs:
+  types:
+    description: "Types of label"
+    required: true
+  token:
+    description: "GitHub Token"
+    required: true
+runs:
+  using: "node16"
+  main: "index.js"
